@@ -1,0 +1,149 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+    padding: 20px; 
+    margin: 20px auto; 
+    width: 85%; 
+    box-sizing: border-box;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.title {
+    flex-grow: 1; 
+    margin: 0; 
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute; 
+    width: 100%;
+    left: 0; 
+}
+
+
+
+    .content {
+    
+}
+
+.content-row {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+.fundraising-image {
+    max-width: 20%; 
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+.text-content {
+    flex-grow: 1; 
+    text-align: left;
+    margin-left: 40px;
+}
+
+    .text-content dl {
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+        margin-bottom: 6px;
+    }
+
+    .text-content dt {
+        float: left;
+        clear: left;
+        font-weight: bold;
+        margin-right: 10px;
+        margin-bottom: 8px; 
+    }
+
+    .text-content dd {
+        float: left;
+        padding: 0;
+        margin: 0; 
+        margin-bottom: 16px; 
+    }
+
+    
+    .text-content dt::after {
+        content: ":";
+    }
+
+   
+    .text-content dl::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+.story {
+    clear: both; 
+    margin-top: 8px;
+}
+
+.invest-button {
+    display: inline-block;
+    width: auto; 
+    padding: 10px 20px;
+    background-color: #006848; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
+}
+
+    .invest-button:hover {
+        background-color: #004f36; 
+        color: #d6caa0; 
+    }
+
+
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.invest-button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.goal,
+.category,
+.location,
+.story {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}

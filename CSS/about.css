@@ -1,0 +1,84 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#team {
+    background-color: #fff;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-member {
+    width: 44%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+    .team-member img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .team-member h3 {
+        font-size: 24px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .team-member p {
+        font-size: 16px;
+        color: #777;
+        margin-bottom: 20px;
+    }
+
+#data-model {
+    background-color: #e5e5e5;
+    padding: 50px 0;
+    text-align: center;
+}
+#data-model h2{
+    margin-bottom: 20px;
+}
+
+    #data-model img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ccc; 
+        border-radius: 5px;
+    }
+
+#github {
+    background-color: #d9d9d9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+    #github a {
+        display: inline-block;
+        background-color: #006848;
+        color: #fff;
+        padding: 15px 30px; 
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+        #github a:hover {
+            background-color: #00573a;     
+        }
