@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help & History - Crowd Funder</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/resources.css" />
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/chart.js" defer></script>
+</head>
+<body>
+    <section id="header">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="img/latest-logo.jpg" alt="Crowd Funder Logo" /></a>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="invest.html">INVEST</a></li>
+                    <li><a href="request.html">REQUEST</a></li>
+                    <li><a href="resources.html">RESOURCES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+        <h1>How can we help?</h1>
+        <section class="tips-section">
+            <h2>Good fundraising practices</h2>
+            <ul>
+                <li>Foster a sense of community and involvement among donors by sharing stories, updates, and milestones related to your fundraising campaigns</li>
+                <li>Show appreciation for every donation received, recognizing the invaluable support of your donors and volunteers</li>
+                <li>Keep donors informed about the progress of your fundraising efforts and the impact of their contributions, fostering trust and accountability</li>
+                <li>Adhere to legal and ethical standards in all fundraising activities, ensuring transparency, accountability, and donor trust</li>
+            </ul>
+            <h2>What makes it a good investment?</h2>
+            <ul>
+                <li>Define what sets your project apart from competitors and why it's uniquely positioned to succeed. Emphasize any innovative features, technologies, or approaches that differentiate your offering</li>
+                <li>Outline your business model and revenue strategy, explaining how your project generates value and sustains profitability over the long term. Provide clarity on pricing, distribution channels, and monetization strategies</li>
+                <li>Acknowledge and address potential risks associated with the project, along with mitigation strategies. Transparency about risks demonstrates foresight and builds investor confidence</li>
+                <li>Clearly outline the benefits and incentives for investors, such as equity ownership, profit-sharing arrangements, or exclusive perks. Highlight what investors stand to gain from supporting your project financially</li>
+            </ul>
+        </section>
+
+        <section class="history">
+            <h2>Our History</h2>
+            <p>The chart below shows the distribution of investments across different categories:</p>
+            <div class="chart-container">
+                <canvas id="investmentChart"></canvas>
+            </div>
+
+            <h2>Our growth in the past 5 years</h2>
+            <p>The chart below shows the annual growth in the past 5 years</p>
+            <div class="chart-container">
+                <canvas id="growthChart"></canvas>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram-square"></i></a>
+        </div>
+        <div class="copy">
+            &copy; 2024 Crowd Funder. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
